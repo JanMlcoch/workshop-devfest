@@ -1,0 +1,21 @@
+name: core
+description: A starting point for Dart libraries or applications.
+# version: 1.0.0
+# homepage: https://www.example.com
+# author: ookami <ookami.kb@gmail.com>
+
+environment:
+  sdk: '>=2.5.0 <3.0.0'
+
+dependencies:
+  rxdart: ^0.22.2
+  built_value: ^6.8.1
+  built_collection: ^4.2.2
+  sealed_unions: ^3.0.2+2
+  dfunc: ^0.0.7
+
+dev_dependencies:
+  pedantic: ^1.8.0
+  test: ^1.6.0
+  built_value_generator: ^6.8.1
+  build_runner: ^1.0.0

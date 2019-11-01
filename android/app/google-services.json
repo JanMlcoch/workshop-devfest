@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "534240649429",
+    "firebase_url": "https://flutter-workshop-d7d60.firebaseio.com",
+    "project_id": "flutter-workshop-d7d60",
+    "storage_bucket": "flutter-workshop-d7d60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534240649429:android:9ec8fc0db00fef8467825c",
+        "android_client_info": {
+          "package_name": "li.mews.workshop.flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534240649429-pr6s7knlophrn227c36ns8d048jubcoi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0Hu_QsDetmFYZOtC_yCAEZJGE9zVjtOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534240649429-pr6s7knlophrn227c36ns8d048jubcoi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "534240649429-729cfa3t0fkat1lgpm719eihcqvgitnd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "li.mews.workshop.flutter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
