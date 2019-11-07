@@ -1,4 +1,7 @@
+import 'package:core/core.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:workshop/widgets/game.dart';
 
 class MyApp extends StatefulWidget {
   @override
@@ -7,14 +10,11 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   @override
-  Widget build(BuildContext context) => MaterialApp(
-        home: Scaffold(
-          body: Center(
-            child: Text(
-              'Mews Workshop',
-              style: Theme.of(context).textTheme.display1,
-            ),
-          ),
-        ),
-      );
+  Widget build(BuildContext context) => GameScreen();
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    Provider.of<AuthService>(context).init();
+  }
 }
