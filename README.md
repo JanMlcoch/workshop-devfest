@@ -1,6 +1,10 @@
-# workshop
+# DevFest 2019 Flutter Workshop by Mews
 
 A simple quiz game to demonstrate cross-platform Flutter development for iOS, Android and Web.
+
+## Architecture
+
+![](architecture.png)
 
 ## Branches
 
